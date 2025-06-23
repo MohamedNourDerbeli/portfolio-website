@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Derbeli - Cybersecurity Expert & Software Developer</title>
+    <meta name="description" content="Cybersecurity enthusiast and software engineer with expertise in system-level programming, web development, and AI. Specializing in threat detection, vulnerability analysis, and secure coding.">
+    <meta name="keywords" content="cybersecurity, software developer, ethical hacking, penetration testing, python, linux, web development">
+    <meta name="author" content="Mohamed Derbeli">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mohamed Derbeli - Cybersecurity Expert & Software Developer">
+    <meta property="og:description" content="Cybersecurity enthusiast and software engineer with expertise in system-level programming, web development, and AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mohamednourderbeli.github.io/portfolio-website/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MD</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="matrix-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="name-primary">Mohamed</span>
+                    <span class="name-secondary">Derbeli</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Passionate cybersecurity enthusiast and software engineer with expertise in system-level programming, 
+                    web development, and AI. Specializing in threat detection, vulnerability analysis, and secure coding.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        View Projects
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                About <span class="highlight">Me</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated cybersecurity student and software developer based in Nabeul, Tunisia. 
+                        Currently pursuing advanced certifications in cybersecurity and machine learning to enhance 
+                        my skills in threat detection and secure coding practices.
+                    </p>
+                    <p>
+                        With a strong foundation in system-level programming and web development, I'm passionate 
+                        about ethical hacking, network security, and building secure applications that protect 
+                        against modern cyber threats.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nabeul, Tunisia</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Available for work</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security Focus</h3>
+                        <p>Specialized in cybersecurity and ethical hacking</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Development</h3>
+                        <p>Full-stack development with security in mind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                Skills & <span class="highlight">Technologies</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Cybersecurity</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Linux/Unix</span>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Network Security</span>
+                        <span class="skill-percentage">82%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="82"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Web Development</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Penetration Testing</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Machine Learning</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Next.js/React</span>
+                        <span class="skill-percentage">78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="78"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <div class="tech-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>IDS/IPS, Nessus, Metasploit</p>
+                </div>
+                <div class="tech-category">
+                    <div class="tech-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>Python, C, Bash, JavaScript</p>
+                </div>
+                <div class="tech-category">
+                    <div class="tech-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Networking</h3>
+                    <p>Wireshark, Nmap, Network Security</p>
+                </div>
+                <div class="tech-category">
+                    <div class="tech-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Next.js, React, MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                Featured <span class="highlight">Projects</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">ReconBot-Plus</h3>
+                        <a href="https://github.com/MohamedNourDerbeli/ReconBot-Plus" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Telegram bot for cybersecurity tasks including IP lookup, hash identification, 
+                        vulnerability scanning, and OSINT queries.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Telegram API</span>
+                        <span class="tech-tag">OSINT</span>
+                        <span class="tech-tag">Security</span>
+                    </div>
+                    <a href="https://github.com/MohamedNourDerbeli/ReconBot-Plus" target="_blank" class="project-btn">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">TicTacToe AI vs AI</h3>
+                        <a href="https://github.com/MohamedNourDerbeli/TicTacToeAI-vs-AI-with-Minimax" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Implementation of AI vs AI tic-tac-toe game using Minimax algorithm with alpha-beta pruning.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AI</span>
+                        <span class="tech-tag">Minimax Algorithm</span>
+                        <span class="tech-tag">Game Theory</span>
+                    </div>
+                    <a href="https://github.com/MohamedNourDerbeli/TicTacToeAI-vs-AI-with-Minimax" target="_blank" class="project-btn">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Next.js E-commerce Platform</h3>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Full-stack e-commerce website with server-side rendering, user authentication, and secure payment integration.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Payment Gateway</span>
+                    </div>
+                    <a href="#" class="project-btn">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Simple Shell</h3>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Unix-like shell implementation providing essential command-line functionalities with optimized system-level programming.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Unix</span>
+                        <span class="tech-tag">System Programming</span>
+                        <span class="tech-tag">Shell</span>
+                    </div>
+                    <a href="#" class="project-btn">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Linux From Scratch</h3>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Built a custom Linux operating system from scratch, demonstrating deep understanding of Linux internals.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">System Administration</span>
+                        <span class="tech-tag">Kernel</span>
+                        <span class="tech-tag">Build Systems</span>
+                    </div>
+                    <a href="#" class="project-btn">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Nessus Vulnerability Assessment</h3>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Comprehensive vulnerability assessment project identifying critical security flaws and providing mitigation strategies.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Nessus</span>
+                        <span class="tech-tag">Vulnerability Assessment</span>
+                        <span class="tech-tag">Security Analysis</span>
+                        <span class="tech-tag">Reporting</span>
+                    </div>
+                    <a href="#" class="project-btn">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">
+                Work <span class="highlight">Experience</span>
+            </h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span>09/2023 - Present</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Work Study Student</h3>
+                        <h4 class="experience-company">Holberton School Tunis</h4>
+                        <p class="experience-location">Tunisia</p>
+                        <ul class="experience-description">
+                            <li>Improved team morale by fostering relationships with 22+ peers, supervisors, and students</li>
+                            <li>Enhanced workplace communication by actively engaging with 22 individuals for ideas and support</li>
+                            <li>Built a collaborative team environment by working on 13 diverse projects with team members</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span>02/2021 - 10/2022</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Restaurant Server</h3>
+                        <h4 class="experience-company">Restaurant Nabeul</h4>
+                        <p class="experience-location">Tunis, Tunisia</p>
+                        <ul class="experience-description">
+                            <li>Streamlined order-taking and meal service for over 100 guests per shift, achieving 95% satisfaction rate</li>
+                            <li>Reduced wait times by an average of 10 minutes per table through efficient service optimization</li>
+                            <li>Maintained calm demeanor during high-volume shifts, demonstrating excellent stress management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                Get In <span class="highlight">Touch</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in discussing cybersecurity projects, collaboration opportunities, 
+                        or just connecting with fellow security enthusiasts. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>derbelnourmohamed@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+216 56 231 771</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nabeul, Tunisia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/md-nr-db" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/MohamedNourDerbeli" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohamed Derbeli. Built with HTML, CSS, and passion for cybersecurity.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
