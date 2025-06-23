@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initTypingAnimation();
     initScrollAnimations();
     initSkillBars();
-    initContactForm();
+    // initContactForm();
     initSmoothScrolling();
 });
 
@@ -150,6 +150,7 @@ function initSkillBars() {
     });
 }
 
+/*
 // Contact form functionality
 function initContactForm() {
     const contactForm = document.getElementById('contactForm');
@@ -179,6 +180,7 @@ function initContactForm() {
         contactForm.reset();
     });
 }
+*/
 
 // Email validation
 function isValidEmail(email) {
