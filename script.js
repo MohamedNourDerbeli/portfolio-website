@@ -262,7 +262,7 @@ window.addEventListener('scroll', function() {
 
 // Add glow effect to cards on hover
 document.addEventListener('DOMContentLoaded', function() {
-    const cards = document.querySelectorAll('.about-card, .project-card, .contact-form');
+    const cards = document.querySelectorAll('.about-card, .project-card');
     
     cards.forEach(card => {
         card.addEventListener('mouseenter', function() {
